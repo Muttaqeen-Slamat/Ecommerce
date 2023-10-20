@@ -6,14 +6,6 @@
     box-sizing: border-box;
 }
 
-body{
-    line-height: 1.6;
-    word-spacing: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .nav1{
     display: flex;
     position: relative;
@@ -21,9 +13,15 @@ body{
     justify-content: space-evenly;
     gap: 10rem;
     font-size: 25px;
-    background-color:rgb(195, 226, 145);
+    background-color:rgb(82, 85, 76);
+    line-height: 1.6;
+    word-spacing: 30px;
 }
 
-
-
-
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-size: 45px;
+}
