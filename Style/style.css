@@ -17,6 +17,28 @@
     word-spacing: 30px;
 }
 
+
+.nav1 a {
+    position: relative;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.nav1 a::before {
+    content: '';
+    position: relative;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+
+
+
 h1{
     display: flex;
     justify-content: center;
@@ -84,4 +106,33 @@ h1{
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+}
+
+.last{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lasth{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+}
+
+.hc{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lastwords{
+    text-align: left ;
+    padding: 100px;
+    background-image: url(https://i.postimg.cc/L8fS4PJf/684-6848954-anime-thumbs-up-png-png-download-transparent-png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
 }
