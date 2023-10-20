@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+    word-spacing: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10rem;
+    font-size: 25px;
+    background-color:rgb(195, 226, 145);
+}
+
+
+
+
