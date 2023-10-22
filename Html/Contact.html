@@ -19,29 +19,42 @@
             </div>
         </section>
     
-        <section id="contact">
-            <h2>Contact us</h2>
-            <div class="form-wrapper">
-                <form action="">
-                    <div>
-                        <input type="text" placeholder="Enter your name" name="firstName" required minlength="2">
-                    </div>
-                    <div>
-                        <input type="text" placeholder="Enter your surname" name="lastName" required>
-                    </div>
-                    <div>
-                        <input type="email" name="email" placeholder="Enter your email" required>
-                    </div>
-                    <div>
-                        <button>Submit</button>
-                    </div>
-                </form>
-                <div class="contactDetails">
-                    <p data-detail="Cellphone Number: "> Cellphone: 081 286 7370</p>
-                    <p data-detail="Email address: "> Email Address: muttaqeens@gmail.com</p>
-                    <p data-detail="Location: "> Location: Athlone</p>
+        <section class="contact">
+
+            <h2>Contact Us</h2>
+            <p>Contact place holder text</p>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://i.postimg.cc/HLV1pSBP/images.jpg" alt="">
                 </div>
             </div>
+
+            <div class="column">
+                <form action="https://formspree.io/f/maygvwzp" method="post"> 
+                    <div class="fn">
+                        <label for="FirstName">FirstName:</label>
+                        <input type="text" placeholder="Enter your name" required id="FirstName" name="FirstName">
+                    </div>
+                    <div class ln>
+                        <label for="LastName">LastName:</label>
+                        <input type="text" placeholder="Enter your surname" required id="LastName" name="LastName">                          
+                    </div>
+                    <div class="email">
+                        <label for="EmailAdd">Email:</label>
+                        <input type="text" placeholder="Enter your email address" required id="Email" name="EmailAdd">                          
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" placeholder="Please enter your message" cols="30" rows="10" required ></textarea>                         
+                    </div>
+                    <div class="abutton">
+                        <button type = "submit">Submit</button>
+                    </div> 
+                </form>
+
+            </div>
+
         </section>
 
         <footer>
