@@ -262,3 +262,12 @@ p.copyright {
     box-shadow: #333333 6px 7.5px;
 }
 
+.phead{
+    text-align: center;
+    padding: 10px;
+}
+
+.shead{
+    text-align: center;
+    padding: 10px;
+}
