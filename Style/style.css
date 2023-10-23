@@ -170,6 +170,14 @@ p.copyright {
     padding: 10px;
 }
 
+.contact p{
+    padding: 3px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
 .fn{
     padding: 5px;
 }
@@ -181,8 +189,9 @@ p.copyright {
 .email{
     padding: 5px;
 }
-.btn{
+.abutton{
     text-align: center;
+    padding: 6px;
 }
 
 .container{
@@ -274,4 +283,16 @@ p.copyright {
     margin-left: 20px;
     border-right: solid black;
     margin-right: 20px;
+}
+
+.moti{
+    padding: 6px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btn{
+    text-align: center;
 }
