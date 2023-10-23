@@ -54,7 +54,7 @@ h1{
     align-items: center;
     height: 50vh;
     font-size: 45px;
-    color:rgb(0, 0, 0);
+    color:rgb(1, 196, 255);
     position: absolute, center;
     background-image: url("https://i.postimg.cc/VvVH91Rx/wp5342493-anime-character-hd-wallpapers.jpg");
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ h1{
     background-size: 100%;
     background-blend-mode: luminosity;
     backdrop-filter: url(filters.svg#filter) blur(4px);
-    text-shadow: 3px 3px #fefefe;
+    text-shadow: 4px 4px rgb(63, 36, 71);
 }
 
 .detail{
@@ -271,7 +271,7 @@ p.copyright {
     text-align: center;
     padding: 10px;
     border-left: solid black;
-    margin-left: 25px;
+    margin-left: 20px;
     border-right: solid black;
-    margin-right: 25px;
+    margin-right: 20px;
 }
