@@ -270,4 +270,8 @@ p.copyright {
 .shead{
     text-align: center;
     padding: 10px;
+    border-left: solid black;
+    margin-left: 25px;
+    border-right: solid black;
+    margin-right: 25px;
 }
